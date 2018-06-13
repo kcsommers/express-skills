@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+	text-align: center;
+	padding-top: 100px;
+}
+
+label {
+	color: #fff;
+	font-size: 2em;
+}
+
+input {
+	border: 5px inset yellow;
+	border-radius: 10px;
+	margin: 30px auto;
+	display: block;
+	font-size: 1.5em;
+	padding: 10px;
+	outline: none;
+	text-align: center;
+}
+
+h1 {
+	color: #fff;
+}
+
+a {
+	color: yellow;
+	border: 2px solid yellow;
+	text-decoration: none;
+	font-size: 2em;
+	padding: 10px;
+	margin: 0 10px;
+}
+
+a:hover {
+	color: white;
+	border-color: white;
+}
+
+ul {
+	list-style: none;	
+	color: #fff;
+	text-align: left
+}
+
+li {
+	border-bottom: 1px solid white;
+	font-size: 1.5em;
+	padding: 10px;
+}

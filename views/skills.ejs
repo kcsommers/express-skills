@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skills Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Skills</h1>
+	<ul>
+		<% skills.forEach(function(skill) { %>
+		<li>Skill: <%= skill.name %> &nbsp; &nbsp; Level: <%= skill.level %></li>
+		<% }); %>
+	</ul>
+
+</body>
+</html>
